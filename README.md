@@ -10,6 +10,14 @@ Full-stack SaaS-style application with admin/faculty workflows, JWT auth, visit 
 ### Backend
 1. `cd backend`
 2. `cp .env.example .env`
+3. Edit `.env` and set:
+   - `MONGO_URI` (MongoDB connection string)
+   - `JWT_SECRET` (long random secret)
+4. `npm install`
+5. `npm run dev`
+
+If `.env` is missing or invalid, the backend now exits with a clear startup message that names missing variables.
+
 3. Fill `MONGO_URI` and `JWT_SECRET`
 4. `npm install`
 5. `npm run dev`
