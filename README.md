@@ -18,6 +18,10 @@ Full-stack SaaS-style application with admin/faculty workflows, JWT auth, visit 
 
 If `.env` is missing or invalid, the backend now exits with a clear startup message that names missing variables.
 
+3. Fill `MONGO_URI` and `JWT_SECRET`
+4. `npm install`
+5. `npm run dev`
+
 ### Frontend
 1. `cd frontend`
 2. `cp .env.example .env`
